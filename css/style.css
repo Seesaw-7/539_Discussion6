@@ -64,15 +64,43 @@ h1, h2, h3{
 
 .grid{
     /*Set width, margin, border properties, background color, and grid properties */
+    display: grid;
+    /* width: 90%; */
+    /* height: 90%; */
+    border-radius: 5px;
+    grid-template-columns: auto auto;
+    column-width: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-content: center;
+    justify-content: center;
+    width:90%;
+    margin : 0 auto;
+
 }
 
 .grid div{
     /* Set border properties, padding, and background color */
-
+    width: 90%;
+    height: 90%;
+    border: 2px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    column-width: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
 }
 
 .grid img{
     /* Set width, margin, and display */
+    border: 2px black solid; 
+    align-items: center;
+    margin:auto;
+    display: block;
 }
 
 
